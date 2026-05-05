@@ -1,0 +1,19 @@
+# Step 1: core backend
+fastapi>=0.110.0,<1.0.0
+uvicorn[standard]>=0.27.0,<1.0.0
+
+# Database（SQLite，Python 標準函式庫即可，無需額外套件）
+sqlalchemy>=2.0.0,<3.0.0
+
+# Settings
+pydantic-settings>=2.2.0,<3.0.0
+email-validator>=2.1.0,<3.0.0
+
+# 候診預警排程（觸發寄信）
+apscheduler>=3.10.0,<4.0.0
+
+# Google Routes / Geocoding HTTP 呼叫
+httpx>=0.27.0,<1.0.0
+
+# 開發環境自動內網穿透（見 NGROK_* 設定）
+pyngrok>=7.3.1,<10.0.0

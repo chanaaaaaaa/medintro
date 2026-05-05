@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --mi-bg: #f8fafc;
+  --mi-card: #ffffff;
+  --mi-accent: #0ea5e9;
+}
+
+html,
+body,
+#app {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--mi-bg);
+}
+
+/* Element Plus：偏明亮簡約 */
+.el-button--primary {
+  --el-button-bg-color: #0ea5e9;
+  --el-button-border-color: #0ea5e9;
+  --el-button-hover-bg-color: #0284c7;
+  --el-button-hover-border-color: #0284c7;
+}
